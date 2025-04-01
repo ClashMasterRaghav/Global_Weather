@@ -1,0 +1,90 @@
+location,latitude,longitude,observation_time,temperature,weather_descriptions,wind_speed,wind_dir,pressure,humidity,feels_like,uv_index,visibility,is_day,precipitation,cloudcover,timestamp
+"New York, United States of America",40.714,-74.006,05:31 AM,10,Overcast,13,NNW,1016,32,9,0,16,no,0,100,2025-03-26 11:03:51
+"London, United Kingdom",51.517,-0.106,05:33 AM,7,Partly cloudy,4,ENE,1025,93,7,0,10,no,0,50,2025-03-26 11:03:55
+"Tokyo, Japan",35.690,139.692,05:38 AM,25,Sunny,17,NNW,1002,22,25,4,8,yes,0,0,2025-03-26 11:04:02
+"Sydney, Australia",-33.883,151.217,05:34 AM,26,Partly cloudy,17,ENE,1020,58,28,3,10,yes,0,50,2025-03-26 11:04:06
+"Paris, France",48.867,2.333,05:32 AM,9,Mist,6,NNW,1023,100,9,0,4,no,0,75,2025-03-26 11:04:09
+"Berlin, Germany",52.517,13.400,05:34 AM,6,Mist,12,W,1017,93,4,0,3,yes,0.4,75,2025-03-26 11:04:14
+"Moscow, Russia",55.752,37.616,05:34 AM,1,Mist,4,WSW,1012,100,1,0,2,yes,0.1,100,2025-03-26 11:04:17
+"Beijing, China",39.929,116.388,05:34 AM,14,Sunny,7,NNE,998,28,14,3,10,yes,0,0,2025-03-26 11:04:20
+"Rio De Janeiro, Brazil",-22.900,-43.233,05:34 AM,25,Partly cloudy,4,NNW,1013,89,28,0,10,no,0,75,2025-03-26 11:04:26
+"Cairo, Egypt",30.050,31.250,05:33 AM,19,Sunny,13,NE,1016,48,19,0,10,yes,0,0,2025-03-26 11:04:36
+"Mumbai, India",18.975,72.826,05:30 AM,29,Haze,13,NW,1010,66,32,6,3,yes,0,25,2025-03-26 11:04:41
+"Dubai, United Arab Emirates",25.252,55.280,05:32 AM,20,Partly cloudy,9,S,1014,60,20,3,10,yes,0,25,2025-03-26 11:04:45
+"Singapore, Singapore",1.293,103.856,05:30 AM,31,Partly cloudy,4,NW,1007,66,38,13,10,yes,0,75,2025-03-26 11:04:48
+"Toronto, Canada",43.667,-79.417,05:34 AM,1,Partly cloudy,12,WNW,1016,64,-3,0,14,no,0,75,2025-03-26 11:04:51
+"Mexico City, Mexico",19.429,-99.128,05:33 AM,15,Overcast,7,N,1029,82,15,0,10,no,0,100,2025-03-26 11:04:55
+"Istanbul, Turkey",41.019,28.965,05:30 AM,12,Partly cloudy,5,SW,1017,88,12,0,10,yes,0,75,2025-03-26 11:04:58
+"Rome, Italy",41.900,12.483,05:34 AM,8,Sunny,8,NNE,1012,87,7,0,10,yes,0,0,2025-03-26 11:05:02
+"Amsterdam, Netherlands",52.374,4.890,05:30 AM,7,Partly cloudy,8,NNW,1024,93,6,0,10,yes,0,75,2025-03-26 11:05:06
+"Madrid, Spain",40.400,-3.683,05:35 AM,3,Clear,5,ENE,1022,93,2,0,10,no,0,0,2025-03-26 11:05:09
+"Barcelona, Spain",41.383,2.183,05:35 AM,11,Partly cloudy,8,N,1017,76,10,0,10,no,0,25,2025-03-26 11:05:13
+"Seoul, South Korea",37.566,127.000,05:35 AM,22,Sunny,9,SSE,1003,19,22,5,10,yes,0,0,2025-03-26 11:05:16
+"Bangkok, Thailand",13.750,100.517,05:39 AM,34,Partly cloudy,19,S,1007,56,39,11,9,yes,0,50,2025-03-26 11:05:21
+"Kuala Lumpur, Malaysia",3.167,101.700,05:35 AM,33,Partly cloudy,8,W,1007,59,40,14,10,yes,0.1,25,2025-03-26 11:05:26
+"Jakarta, Indonesia",-6.215,106.845,05:35 AM,28,Rain,18,WNW,1006,89,29,14,5,yes,0,75,2025-03-26 11:05:30
+"Manila, Philippines",14.604,120.982,05:35 AM,34,Partly cloudy,8,S,1008,50,38,13,10,yes,0,25,2025-03-26 11:05:34
+"Ho Chi Minh City, Vietnam",10.750,106.667,05:35 AM,31,Partly cloudy,12,SSE,1007,59,31,13,10,yes,0,75,2025-03-26 11:05:45
+"Shanghai, China",31.005,121.409,05:35 AM,31,Sunny,15,S,999,38,32,6,10,yes,0,0,2025-03-26 11:05:48
+"Hong Kong, Hong Kong",22.283,114.150,05:35 AM,25,Sunny,14,SSW,1007,74,27,9,10,yes,0,0,2025-03-26 11:05:52
+"Delhi, Canada",42.850,-80.500,05:35 AM,-2,Partly cloudy,17,WNW,1017,86,-7,0,24,no,0,75,2025-03-26 11:05:56
+"Mumbai, India",18.975,72.826,05:30 AM,29,Haze,13,NW,1010,66,32,6,3,yes,0,25,2025-03-26 11:06:00
+"Chennai, India",13.083,80.283,05:40 AM,32,Haze,17,SE,1010,63,36,11,5,yes,0,50,2025-03-26 11:06:19
+"Kolkata, India",22.570,88.370,05:36 AM,33,Haze,9,WSW,1008,41,31,9,4,yes,0,0,2025-03-26 11:06:23
+"Lahore, Pakistan",31.550,74.344,05:37 AM,26,Smoke,17,SSE,1008,54,25,5,3,yes,0,50,2025-03-26 11:06:52
+"Tehran, Iran",35.726,51.330,05:32 AM,6,Partly cloudy,11,S,1020,42,4,3,10,yes,0,25,2025-03-26 11:07:05
+"Baghdad, Iraq",33.339,44.394,05:37 AM,15,Partly cloudy,14,NW,1017,51,15,1,10,yes,0,50,2025-03-26 11:07:10
+"Riyadh, Saudi Arabia",24.641,46.773,05:37 AM,16,Sunny,12,NW,1020,23,16,2,10,yes,0,0,2025-03-26 11:07:13
+"Tel Aviv-Yafo, Israel",32.068,34.765,05:32 AM,15,Sunny,4,SE,1017,67,16,1,10,yes,0,0,2025-03-26 11:07:17
+"Athens, Greece",37.980,23.716,05:37 AM,14,Partly cloudy,4,NNE,1016,67,15,0,10,yes,0,25,2025-03-26 11:07:21
+"Vienna, Austria",48.200,16.367,05:37 AM,5,Shallow Fog,6,W,1017,93,4,0,10,yes,0,75,2025-03-26 11:07:33
+"Prague, Czech Republic",50.083,14.467,05:37 AM,5,Mist,7,NW,1017,93,3,0,3,yes,0,75,2025-03-26 11:07:38
+"Warsaw, Poland",52.250,21.000,05:34 AM,2,Sunny,8,SSW,1015,87,0,0,10,yes,0,0,2025-03-26 11:07:41
+"Stockholm, Sweden",59.333,18.050,05:37 AM,4,Overcast,9,NE,1011,87,2,0,10,yes,0.2,100,2025-03-26 11:07:46
+"Copenhagen, Denmark",55.667,12.583,05:38 AM,7,Partly cloudy,22,WNW,1014,87,4,0,10,yes,0,75,2025-03-26 11:08:05
+"Helsinki, Finland",60.176,24.934,05:38 AM,2,Sunny,10,N,1008,80,-1,0,10,yes,0,0,2025-03-26 11:08:07
+"Dublin, Ireland",53.333,-6.249,05:38 AM,7,Partly cloudy,5,SW,1024,87,6,0,10,no,0,75,2025-03-26 11:08:10
+"Lisbon, Portugal",38.717,-9.133,05:33 AM,11,Clear,5,NNE,1022,87,11,0,10,no,0,0,2025-03-26 11:08:15
+"Brussels, Belgium",50.833,4.333,05:33 AM,7,Partly cloudy,10,NNE,1023,93,5,0,8,yes,0,50,2025-03-26 11:08:18
+"Zurich, Switzerland",47.367,8.550,05:33 AM,7,Light Rain Shower,4,NNW,1019,100,7,0,10,yes,0,75,2025-03-26 11:08:27
+"Geneva, Switzerland",46.200,6.167,05:38 AM,7,Partly cloudy,4,NE,1018,81,7,0,10,yes,0,25,2025-03-26 11:08:29
+"Milan, Italy",45.467,9.200,05:33 AM,9,Patches Of Fog,4,N,1016,100,10,0,2,yes,0,0,2025-03-26 11:08:32
+"Naples, Italy",40.833,14.250,05:36 AM,12,Sunny,7,NNW,1011,88,12,0,10,yes,0,0,2025-03-26 11:08:35
+"Munich, Germany",48.150,11.583,05:38 AM,5,Partly cloudy,6,WSW,1018,100,4,0,10,yes,0.3,75,2025-03-26 11:08:39
+"Frankfurt, Germany",50.117,8.683,05:38 AM,8,"Light Rain Shower, Mist, Drizzle",5,NNW,1020,93,8,0,5,yes,0.1,75,2025-03-26 11:08:41
+"Hamburg, Germany",53.550,10.000,05:43 AM,7,Drizzle,15,NW,1019,87,4,0,9,yes,0,100,2025-03-26 11:08:43
+"Vancouver, Canada",49.250,-123.133,05:34 AM,9,Partly cloudy,10,NW,1015,100,8,0,40,no,0,50,2025-03-26 11:08:46
+"Montreal, Canada",45.500,-73.583,05:38 AM,1,Overcast,14,SW,1013,93,-3,0,14,no,0,100,2025-03-26 11:08:48
+"Chicago, United States of America",41.850,-87.650,05:39 AM,2,Clear,4,SSE,1021,72,1,0,16,no,0,0,2025-03-26 11:08:50
+"Los Angeles, United States of America",34.052,-118.243,05:34 AM,13,Overcast,8,SSW,1016,87,13,0,16,no,0,100,2025-03-26 11:08:52
+"San Francisco, United States of America",37.775,-122.418,05:34 AM,14,Partly cloudy,10,WSW,1013,84,14,0,16,no,0,25,2025-03-26 11:08:55
+"Miami, United States of America",25.774,-80.194,05:38 AM,22,Partly cloudy,17,ESE,1019,82,25,0,16,no,0,25,2025-03-26 11:08:59
+"Houston, United States of America",29.763,-95.363,05:43 AM,19,Mist,11,SSE,1020,100,19,0,6,no,0,100,2025-03-26 11:09:00
+"Boston, United States of America",42.358,-71.060,05:38 AM,5,Partly cloudy,7,NW,1016,57,4,0,16,no,0,25,2025-03-26 11:09:02
+"Seattle, United States of America",47.606,-122.331,05:37 AM,14,Clear,7,N,1014,75,14,0,16,no,0,0,2025-03-26 11:09:05
+"Atlanta, United States of America",33.749,-84.388,05:39 AM,17,Clear,13,NNW,1019,32,17,0,16,no,0,0,2025-03-26 11:09:07
+"Dallas, United States of America",32.783,-96.800,05:37 AM,24,Partly cloudy,12,SSE,1018,45,27,0,16,no,10.1,50,2025-03-26 11:09:09
+"Las Vegas, United States of America",36.175,-115.136,05:34 AM,23,Clear,5,NW,1014,22,22,0,16,no,0,0,2025-03-26 11:09:11
+"Phoenix, United States of America",33.448,-112.073,05:34 AM,30,Partly cloudy,10,NNW,1010,12,28,0,16,no,0,25,2025-03-26 11:09:13
+"Denver, United States of America",39.739,-104.984,05:34 AM,12,Clear,4,WNW,1026,35,13,0,16,no,0,0,2025-03-26 11:09:15
+"Portland, United States of America",45.524,-122.675,05:43 AM,16,Clear,4,NNE,1011,90,16,0,16,no,0,0,2025-03-26 11:09:17
+"San Diego, United States of America",32.715,-117.156,05:39 AM,15,Overcast,7,W,1017,83,15,0,16,no,0,100,2025-03-26 11:09:19
+"Austin, United States of America",30.267,-97.743,05:43 AM,23,Clear,18,S,1020,50,25,0,16,no,0,0,2025-03-26 11:09:22
+"Philadelphia, United States of America",39.952,-75.164,05:39 AM,10,Overcast,12,NW,1015,48,8,0,16,no,0,100,2025-03-26 11:09:25
+"Washington, United States of America",38.895,-77.037,05:39 AM,12,Overcast,10,NW,1016,39,11,0,16,no,0,100,2025-03-26 11:09:29
+"Melbourne, Australia",-37.817,144.967,05:39 AM,20,Partly cloudy,15,S,1022,60,20,3,10,yes,0,50,2025-03-26 11:09:32
+"Brisbane, Australia",-27.500,153.017,05:44 AM,25,Light Rain Shower,12,SSE,1016,83,27,0,10,yes,0.5,75,2025-03-26 11:09:36
+"Perth, Australia",-31.933,115.833,05:38 AM,37,Sunny,8,E,1013,17,37,9,10,yes,0,0,2025-03-26 11:09:39
+"Auckland, New Zealand",-36.867,174.767,05:34 AM,21,Partly cloudy,14,SW,1019,69,21,1,10,yes,0,25,2025-03-26 11:09:41
+"Wellington, New Zealand",-41.300,174.783,05:39 AM,18,Sunny,4,NNW,1019,77,18,1,10,yes,0,0,2025-03-26 11:09:44
+"Johannesburg, South Africa",-26.200,28.083,05:38 AM,17,Sunny,4,S,1025,94,17,0,10,yes,0,0,2025-03-26 11:09:46
+"Cape Town, South Africa",-33.917,18.417,05:39 AM,13,Sunny,8,SSE,1018,94,13,0,10,yes,0,0,2025-03-26 11:09:48
+"Nairobi, Kenya",-1.283,36.817,05:38 AM,17,Partly cloudy,13,NE,1024,88,17,1,10,yes,0.1,75,2025-03-26 11:09:50
+"Lagos, Nigeria",6.453,3.396,05:39 AM,28,Partly cloudy,22,WSW,1010,89,32,0,10,no,0,25,2025-03-26 11:09:52
+"Casablanca, Morocco",33.593,-7.616,05:38 AM,7,Clear,11,ENE,1021,87,5,0,10,no,0,0,2025-03-26 11:09:54
+"Addis Ababa, Ethiopia",9.033,38.700,05:40 AM,15,Partly cloudy,5,SE,1026,72,15,1,10,yes,0,75,2025-03-26 11:09:57
+"Buenos Aires, Argentina",-34.588,-58.673,05:39 AM,17,Clear,14,E,1019,83,17,0,10,no,0,0,2025-03-26 11:09:59
+"Santiago, Chile",-33.450,-70.667,05:38 AM,13,Clear,4,SSW,1015,77,14,0,8,no,0,0,2025-03-26 11:10:01
+"Lima, Peru",-12.050,-77.050,05:40 AM,22,Clear ,9,S,1012,78,22,0,10,no,0,25,2025-03-26 11:10:03
+"Bogota, Colombia",4.600,-74.083,05:40 AM,10,Patches Of Fog,4,E,1028,100,10,0,10,no,0,25,2025-03-26 11:10:06
+"Sao Paulo, Brazil",-23.533,-46.617,05:44 AM,20,Clear,9,ESE,1019,88,20,0,10,no,0,0,2025-03-26 11:10:08

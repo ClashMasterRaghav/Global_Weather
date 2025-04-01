@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Weather Explorer</title>
+    
+    <!-- Cesium from official CDN -->
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    
+    <!-- PapaParse -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="cesiumContainer"></div>
+    
+    <!-- Modern Sidebar -->
+    <div id="weatherSidebar">
+        <div class="sidebar-header">
+            <div class="header-content">
+                <h1><i class="fas fa-globe"></i> Weather Globe</h1>
+                <p class="header-subtitle">Real-time global weather data</p>
+            </div>
+        </div>
+        
+        <div class="sidebar-content">
+            <!-- Weather Overview -->
+            <div class="weather-overview">
+                <div class="overview-card">
+                    <div class="card-icon"><i class="fas fa-thermometer-half"></i></div>
+                    <div class="card-info">
+                        <h3>Global Overview</h3>
+                        <p id="totalLocations">Loading locations...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weather Details Panel -->
+            <div id="weatherDetails" class="weather-details">
+                <div class="details-header">
+                    <h2 id="locationTitle"></h2>
+                    <span id="weatherCategory" class="category"></span>
+                </div>
+                <div class="details-content">
+                    <div class="weather-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-temperature-high"></i>
+                            <span id="tempValue"></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-wind"></i>
+                            <span id="windValue"></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-tint"></i>
+                            <span id="humidityValue"></span>
+                        </div>
+                    </div>
+                    <p id="weatherSummary" class="weather-summary"></p>
+                    <p id="weatherTimestamp" class="timestamp"></p>
+                </div>
+                <button id="backButton" class="modern-button">
+                    <i class="fas fa-arrow-left"></i> Back to list
+                </button>
+            </div>
+            
+            <!-- Weather List -->
+            <div id="weatherList" class="weather-list">
+                <!-- Weather items will be populated here -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Category Filters -->
+    <div id="controls" class="modern-controls">
+        <div id="categoryFilters">
+            <button class="categoryButton categoryButton-Clear active" data-category="Clear">
+                <i class="fas fa-sun"></i> Clear
+            </button>
+            <button class="categoryButton categoryButton-Cloudy active" data-category="Cloudy">
+                <i class="fas fa-cloud"></i> Cloudy
+            </button>
+            <button class="categoryButton categoryButton-Rain active" data-category="Rain">
+                <i class="fas fa-cloud-rain"></i> Rain
+            </button>
+            <button class="categoryButton categoryButton-Snow active" data-category="Snow">
+                <i class="fas fa-snowflake"></i> Snow
+            </button>
+            <button class="categoryButton categoryButton-Storm active" data-category="Storm">
+                <i class="fas fa-bolt"></i> Storm
+            </button>
+        </div>
+    </div>
+
+    <!-- Navigation Controls -->
+    <div class="navigation-controls">
+        <button id="zoomIn" class="nav-button" title="Zoom In">
+            <i class="fas fa-plus"></i>
+        </button>
+        <button id="zoomOut" class="nav-button" title="Zoom Out">
+            <i class="fas fa-minus"></i>
+        </button>
+        <button id="resetView" class="nav-button" title="Reset View">
+            <i class="fas fa-compass"></i>
+        </button>
+    </div>
+
+    <!-- Status Indicators -->
+    <div class="time-indicator">
+        <i class="fas fa-clock"></i>
+        <span id="localTime">Loading...</span>
+        </div>
+    
+    <div class="zoom-indicator">
+        <i class="fas fa-search"></i>
+        <span id="zoomLevel">Calculating...</span>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingIndicator" class="loading">
+        <i class="fas fa-spinner fa-spin"></i>
+        <span>Loading globe data...</span>
+    </div>
+
+    <!-- Tooltip -->
+    <div id="tooltip" class="tooltip"></div>
+
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
